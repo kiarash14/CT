@@ -333,11 +333,11 @@ end
 
 return {
   patterns = {
-  	"^#(rank) (.*) (.*)$",
-  	"^#(rank) (.*)$",
-  	"^#(admins)$",
-  	"^#(mods)$",
-  	"^#(members)$"
+  	"^[!/#](rank) (.*) (.*)$",
+  	"^[!/#](rank) (.*)$",
+  	"^[!/#](admins)$",
+  	"^[!/#](mods)$",
+  	"^[!/#](members)$"
   },
   run = run
 }
