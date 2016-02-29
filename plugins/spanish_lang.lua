@@ -348,8 +348,8 @@ end
 
 return {
 	patterns = {
-		'#(install) (spanish_lang)$',
-		'#(update) (spanish_lang)$'
+		'[!/#](install) (spanish_lang)$',
+		'[!/#](update) (spanish_lang)$'
 	},
 	run = run,
 }
